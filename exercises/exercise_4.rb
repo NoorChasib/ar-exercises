@@ -6,7 +6,7 @@ require_relative "./exercise_3"
 puts "Exercise 4"
 puts "----------"
 
-Store.create(
+Store.create!(
   name: "Surrey",
   annual_revenue: 224_000,
   mens_apparel: false,
